@@ -1,0 +1,20 @@
+templates/precommande.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Précommande - VYBORA</title>
+</head>
+<body>
+    <h1>Formulaire de précommande</h1>
+
+    <form method="POST">
+        <label>Produit</label><br>
+        <input type="text" name="produit" required><br><br>
+
+        <label>Quantité</label><br>
+        <input type="number" name="quantite" required><br><br>
+
+        <button type="submit">Envoyer la précommande</button>
+    </form>
+</body>
+</html>
