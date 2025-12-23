@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Précommande — VYBORA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #ffffff;
+            color: #000;
+            padding: 40px;
+        }
+        form {
+            max-width: 400px;
+            margin: auto;
+        }
+        input, button {
+            width: 100%;
+            padding: 12px;
+            margin-top: 12px;
+        }
+        button {
+            background: #000;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Précommander un produit</h2>
+
+    <form method="POST">
+        <input type="text" name="produit" placeholder="Nom du produit" required>
+        <input type="number" name="quantite" placeholder="Quantité" required>
+        <button type="submit">Envoyer la précommande</button>
+    </form>
+
+</body>
+</html>
