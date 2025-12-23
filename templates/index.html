@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>VYBORA — Précommande</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f0f0f;
+            color: white;
+            text-align: center;
+            padding: 40px;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 14px 28px;
+            background: #00ffcc;
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+        }
+        a:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Bienvenue sur <strong>VYBORA</strong></h1>
+    <p>
+        Précommandez les produits tendances de votre génération<br>
+        avant tout le monde.
+    </p>
+
+    <a href="{{ url_for('precommande') }}">
+        Faire une précommande
+    </a>
+
+</body>
+</html>
